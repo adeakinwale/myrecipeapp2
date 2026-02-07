@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = "bwhizzy25/recipe-booking-app"
-        APP_SERVER = "ec2-user@172.31.31.175"
+        APP_SERVER = "ec2-user@35.178.94.118"
     }
 
     stages {
@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/unknownknown998/recipebook.git'
+                    url: 'https://https://github.com/adeakinwale/myrecipeapp2'
             }
         }
 
