@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "bwhizzy25/recipe-booking-app"
+        IMAGE_NAME = "adebambo2/recipe-booking-app"
         APP_SERVER = "ec2-user@35.178.94.118"
     }
 
