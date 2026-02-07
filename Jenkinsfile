@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://https://github.com/adeakinwale/myrecipeapp2'
+                    url: 'https://github.com/adeakinwale/myrecipeapp2'
             }
         }
 
